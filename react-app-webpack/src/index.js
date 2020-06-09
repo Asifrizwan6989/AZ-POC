@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Home from './HomePage';
 
+
 class App extends Component{
     constructor() {
         super();
@@ -24,7 +25,7 @@ class App extends Component{
         return(
             <div>
                
-        <button id = "btn" onClick={this.clickMe}>{this.state.btnText}</button>
+        <button onClick={this.clickMe}>{this.state.btnText}</button>
                 {this.state.show &&
                 <Home name={this.state.name}/>}
                 

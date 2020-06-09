@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+
 
 let counter = 1;
 export default class Home extends React.Component{
